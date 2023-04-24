@@ -22,14 +22,25 @@
   transform: scale(1.2);
 }
 .colum {
+  position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 50px;
+}
+#imgtext {
+  position: absolute;
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  top: 10px;
+  font-weight: bold;
 }
 #exportImg {
   border-radius: 20px;
   transition: 200ms;
-  
+
   border: 0;
 }
 
