@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.divimg > img {
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+  transition: 200ms;
+}
+
+.divimg > img:hover {
+  transform: scale(1.2);
+}
+.colum {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#exportImg {
+  border-radius: 20px;
+  transition: 200ms;
+  
+  border: 0;
+}
+
+#exportImg:hover {
+  transform: scale(1.2);
+}
