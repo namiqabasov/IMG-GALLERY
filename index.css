@@ -10,16 +10,13 @@
   gap: 30px;
   margin-top: 100px;
 }
-
-.divimg > img {
-  width: 150px;
-  height: 100px;
-  border-radius: 20px;
+img{
   transition: 200ms;
+  border-radius: 20px;
 }
 
-.divimg > img:hover {
-  transform: scale(1.2);
+img:hover {
+  transform: scale(1.1);
 }
 .colum {
   position: relative;
@@ -28,6 +25,11 @@
   align-items: center;
   margin-top: 50px;
 }
+.colum>img{
+  width: 400px;
+  height: 300px;
+}
+
 #imgtext {
   position: absolute;
   color: white;
@@ -37,13 +39,4 @@
   top: 10px;
   font-weight: bold;
 }
-#exportImg {
-  border-radius: 20px;
-  transition: 200ms;
 
-  border: 0;
-}
-
-#exportImg:hover {
-  transform: scale(1.2);
-}
